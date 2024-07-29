@@ -33,6 +33,13 @@ body {
 	line-height: 1;
 }
 
+.prof{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0; /* Adjust as needed */
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -100,6 +107,7 @@ input, select, textarea {
 
 	body {
 		background: #ffffff;
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2944,6 +2952,7 @@ input, select, textarea {
 						#header nav ul li a[href="#menu"]:hover:after {
 							opacity: 0;
 						}
+						
 
 		@media screen and (max-width: 736px) {
 
@@ -3325,5 +3334,8 @@ input, select, textarea {
 			#wrapper > * > .inner {
 				padding: 0 1.25em;
 			}
+		
 
 		}
+
+	
